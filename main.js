@@ -14,7 +14,6 @@ const connectDb = require("./src/config/dbConnection");
 // Example usage in an async function
 async function startServer() {
   try {
-    console.log("CONNECTING TO MONGODB STARTED")
     await connectDb();
     // Start your server here
     console.log('Server started successfully');
